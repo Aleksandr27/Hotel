@@ -93,15 +93,25 @@ public class Testing {
     public static void main(String[]args){
 
         Hotel hot = new Hotel();
+        
         MyThread t1 = new MyThread(hot,"Александр-1",3000,500);
+        
         MyThread t2 = new MyThread(hot,"Борис-2",1100,600);
+        
         MyThread t3 = new MyThread(hot,"Виктор-3",1400,700);
+        
         MyThread t4 = new MyThread(hot,"Геннадий-4",3000,800);
+        
         MyThread t5 = new MyThread(hot,"Дмитрий-5",3000,900);
+        
         MyThread t6 = new MyThread(hot,"Екатерина-6",3,1000);
+        
         MyThread t7 = new MyThread(hot,"Жора-7",1400,1100);
+        
         MyThread t8 = new MyThread(hot,"Зинаида-8",3000,1200);
+        
         MyThread t9 = new MyThread(hot,"Игорь-9",1300,1300);
+        
         MyThread t10 = new MyThread(hot,"Коля-10",3000,5000);
 
     }
